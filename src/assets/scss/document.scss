@@ -42,9 +42,29 @@
                 padding: 10px 20px;
                 width: 310px;
 
+                .download-icon {
+                    border-radius: 8px;
+                    background-color: #C1AEEB;
+                    cursor: pointer;
+                    height: 50px;
+                    margin-right: 14px;
+                    padding: 14px;
+                    width: 50px;
+                }
+
+                .right {
+                    display: block;
+                }
+
                 .name {
                     font-size: 13px;
                     font-weight: 500;
+                }
+
+                a {
+                    &.name {
+                        color: #062951;
+                    }
                 }
 
                 .sub-text {
@@ -69,7 +89,9 @@
 
                 &.purple {
                     background-color: #ECE5FB;
+                    display: flex;
                     margin-top: 16px;
+                    padding: 10px;
 
                     .name {
                         color: #062951;
@@ -88,8 +110,12 @@
                     background-color: #F6EDE8;
                     border: 1px solid #E0AA32;
                     margin: 20px 150px -8px 0;
-                    padding: 25px 30px;
+                    padding: 20px 30px;
                     width: 216px;
+
+                    .arrow-icon {
+                        margin-left: 40px;
+                    }
                 }
 
                 &.step {

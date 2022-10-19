@@ -7,6 +7,7 @@ import {
 
 
 import logo from './assets/images/logo.svg';
+import logoBlue from './assets/images/logoBlue.svg';
 import girlImg from './assets/images/imgGirl.png';
 import locationYellow from './assets/images/locationYellow.svg';
 import emailYellow from './assets/images/EmailYellow.svg';
@@ -186,7 +187,7 @@ function Home() {
       </div>
       <div className="section-about-us">
         <div className="section">
-          <div className="logo-wrap"><img src={logo}></img></div>
+          <div className="logo-wrap"><img src={logoBlue}></img></div>
           <div className="description">Embark on an adventure. Immerse yourself in student life and the unique local culture of your preferred study destination, 
           while earning a prestigious, internationally recognised degree under the unique guidance of industry experts of over 20 years of service
           </div>

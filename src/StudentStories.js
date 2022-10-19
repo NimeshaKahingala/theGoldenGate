@@ -55,16 +55,6 @@ const StudentStories = () => (
       I would encourage anyone to get support from GG for your student visa and learn that you will be listened throughout the process until you enter your dream destination.
       </div>
     </div>
-    <div className='story-wrap'>
-      <div className="student-img" style={{ backgroundImage: `url(${student})` }} ></div>
-      <div className='student-name'>student</div>
-      <div className='university-name'>University of South Wales</div>
-      <div className='description'>If anyone needs to go for higher studies in overseas, then look no further. The only place you have to step in is the Golden gate Consultants. 
-      I went to the UK 🇬🇧 in 2020 for my MSc in University of South Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿 and I got the UK Tier 4 Student visa in 6 days. I got this visa through Golden gate  and they gave me 
-      a tremendous support throughout the entire process. Their staff was very friendly and highly supportive. They will assist you in every single aspect of your visa process no 
-      matter what your circumstances are. Highly recommending this place to everyone who is seeking for a bright future.
-      </div>
-    </div>
   </Carousel>
 );
 
