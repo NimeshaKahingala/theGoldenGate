@@ -1,0 +1,132 @@
+.page-about-us {
+  background-color: #F9F6EF;
+  font-family: 'Poppins', sans-serif;
+  z-index: -3;
+
+  .about-us-inner {
+    background-color: white;
+    border-radius: 0 0 0 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 150px 196px 150px;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+
+    .background-shape {
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      height: 249px;
+      position: relative;
+      width: 140px;
+  
+      .background-shape-inner {
+        background-color: #F9F6EF;
+        border-radius: 0 96px 0 0;
+        height: 249px;
+        width: 140px;
+        z-index: 1;
+      }
+    }
+  
+    .our-team {
+      background-color: #F9F6EF;
+      position: relative;
+      padding: 140px 10px 0 150px;
+      top: -60px;
+      text-align: center;
+      width: calc(100vw - 140px);
+      z-index: 1;
+  
+      .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+        padding-bottom: 80px;
+        width: 685px;
+  
+        .team-member {
+          margin-bottom: 40px;
+          width: 200px;
+  
+          .image {
+            img {
+              border-radius: 20px;
+            }
+          }
+  
+          .name {
+            font-size: 15px;
+            font-weight: 600;
+  
+          }
+  
+          .position {
+            font-size: 13px;
+          }
+        }
+      }
+  
+      .text {
+        font-size: 13px;
+        margin-bottom: 60px;
+  
+        .bold {
+          font-weight: 600;
+        }
+      }
+  
+    }
+  }
+
+  .section {
+    margin-bottom: 30px;
+
+    .description {
+      color: #052850;
+      margin-right: 20px;
+      width: 415px;
+    }
+
+    .second-block {
+      margin: 20px 0 50px 0;
+      width: 415px;
+    }
+
+    .img-map {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 278px;
+      margin-top: 60px;
+      width: 564px;
+    }
+  }
+
+  .sub-title {
+    color: #E0AA32;
+    font-size: 13px;
+    font-weight: 600;
+
+    &.bold-text {
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+  }
+
+  .title {
+    color: #062951;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+    .text-yellow {
+      color: #E0AA32;
+    }
+  }
+}

@@ -1,6 +1,9 @@
-import './App.scss';
+import './Home.scss';
 import { Carousel } from 'antd';
 import React from 'react';
+import {
+  Link,
+} from "react-router-dom";
 
 
 import logo from './assets/images/logo.svg';
@@ -9,6 +12,7 @@ import locationYellow from './assets/images/locationYellow.svg';
 import emailYellow from './assets/images/EmailYellow.svg';
 import phoneYellow from './assets/images/PhoneYellow.svg';
 import whatsappYellow from './assets/images/WhatsappYellow.svg';
+import map from './assets/images/map_small.svg';
 
 import uk from './assets/images/uk.svg';
 import aus from './assets/images/aus.svg';
@@ -44,30 +48,16 @@ import UniversityofStrathclyde from './assets/images/university-logos/University
 import UniversityofSurrey from './assets/images/university-logos/UniversityofSurrey.jpg';
 import UniversityofSussex from './assets/images/university-logos/UniversityofSussex.png';
 
-import MainCarousel from './MainCarousel'
+import MainCarousel from './MainCarousel';
+import StudentStories from './StudentStories';
+import Navbar from './components/Navbar';
+import Footer from './components/footer';
 
 
-function App() {
+function Home() {
   return (
     <div className="App">
-      <div className="header-top">
-        <div className="left">
-          <div className="item">INFO@THEGOLDENGATE.UK</div>
-          <div className="item">(0044) 1428 483412</div>
-        </div>
-        <div className="right">
-          <div className="item">ABOUT US</div>
-          <div className="item">CONTACT US</div>
-          <div className="item">TERMS & CONDITIONS</div>
-        </div>
-      </div>
-      <div className="header"> 
-        <div className="left"><img src={logo}></img></div>
-        <div className="right">
-          <div className="item">DOCUMENT LIBRARY</div>
-          <div className="btn-apply-now">APPLY NOW</div>
-        </div>
-      </div>
+      <Navbar/>
       <div className="section-welcome">
         <div className="top">
           <div className="left">
@@ -106,7 +96,7 @@ function App() {
       </div>
       <div className="section-video">
         <div className="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/9YffrCViTVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/zEkAeQV1PEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div className="background-shape"><div className="background-shape-inner"></div></div>
       </div>
@@ -190,40 +180,44 @@ function App() {
       <div className="section-student-stories">
         <div className="sub-title">WHAT OUR STUDENTS SAY</div>
         <div className="title">STUDENT <span className='text-yellow'>STORIES</span></div>
+        <div className='student-stories-wrap'>
+        <StudentStories/>
+        </div>
       </div>
       <div className="section-about-us">
-        <div>
-          <div className="left"><img src={logo}></img></div>
+        <div className="section">
+          <div className="logo-wrap"><img src={logo}></img></div>
           <div className="description">Embark on an adventure. Immerse yourself in student life and the unique local culture of your preferred study destination, 
           while earning a prestigious, internationally recognised degree under the unique guidance of industry experts of over 20 years of service
           </div>
         </div>
-        <div>
-          <div className="title">CONTACT US</div>
-          <div>
-            <div><img src={phoneYellow}></img></div>
-            <div>(0044) 1428 483412</div>
+        <div className="section">
+          <div className="title">CONTACT US <div className="divider"></div></div>
+          <div className="details">
+            <div className='icon'><img src={phoneYellow}></img></div>
+            <div className='value'>(0044) 1428 483412</div>
           </div>
-          <div>
-            <div><img src={emailYellow}></img></div>
-            <div>INFO@THEGOLDENGATE.UK</div>
+          <div className="details">
+            <div className='icon'><img src={emailYellow}></img></div>
+            <div className='value'>INFO@THEGOLDENGATE.UK</div>
           </div>
-          <div>
-            <div><img src={whatsappYellow}></img></div>
-            <div>(0044) 7479 735772</div>
+          <div className="details">
+            <div className='icon'><img src={whatsappYellow}></img></div>
+            <div className='value'>(0044) 7479 735772</div>
           </div>
-          <div>
-            <div><img src={locationYellow}></img></div>
-            <div>GOLDEN GATE INTERNATIONAL, MIDHURST ROAD, HASLEMERE, GU27 3HA</div>
+          <div className="details">
+            <div className='icon'><img src={locationYellow}></img></div>
+            <div className='value'>GOLDEN GATE INTERNATIONAL, MIDHURST ROAD, HASLEMERE, GU27 3HA</div>
           </div>
         </div>
-        <div>
-          <div className="title">OUR OFFICES</div>
-          <div></div>
+        <div className="section">
+          <div className="title">OUR OFFICES<div className="divider"></div></div>
+          <div className="img-map" style={{backgroundImage: `url(${map})`}}></div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
 
-export default App;
+export default Home;

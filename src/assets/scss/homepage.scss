@@ -1,28 +1,51 @@
 .header-top {
   background-color: #07264A;
   color: white;
-  display: flex;
-  font-size: 10px;
-  font-weight: 500;
   height: 30px;
-  justify-content: space-between;
+
+  .header-inner {
+    align-items: center;
+    display: flex;
+    font-size: 10px;
+    font-weight: 500;
+    justify-content: space-between;
+    margin: 0 150px 0 150px;
+    padding: 8px 0;
+  }
 
   .left {
     display: flex;
+
+    .item {
+      color: #FFFFFF;
+      margin-right: 20px;
+    }
   }
 
   .right {
     display: flex;
+
+    .item {
+      color: #FFFFFF;
+      margin-right: 20px;
+    }
   }
 }
 
 .header {
-  align-items: center;
   background-color: #062951;
   color: white;
-  display: flex;
   height: 70px;
-  justify-content: space-between;
+
+  .header-inner {
+    align-items: center;
+    display: flex;
+    font-size: 10px;
+    font-weight: 500;
+    justify-content: space-between;
+    padding: 15px 0;
+    margin: 0 150px 0 150px;
+  }
 
   .right {
     align-items: center;
@@ -38,6 +61,10 @@
       font-weight: 600;
       margin-left: 20px;
       padding: 10px 22px;
+    }
+
+    .item {
+      color: #FFFFFF;
     }
   }
 }
@@ -442,6 +469,98 @@
 
     .text-yellow {
       color: #E0AA32;
+    }
+  }
+}
+
+.section-about-us {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0 150px;
+
+  .section {
+    margin-bottom: 30px;
+
+    .details {
+      align-items: center;
+      display: flex;
+      margin-bottom: 15px;
+
+      .icon {
+        margin: 0 15px 0 0;
+      }
+
+      .value {
+        color: #052850;
+        font-weight: 500;
+        width: 280px;
+      }
+    }
+
+    .description {
+      color: #052850;
+      margin-right: 20px;
+      width: 237px;
+    }
+
+    .img-map {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 224px;
+      width: 456px;
+    } 
+
+    .logo-wrap {
+      margin-bottom: 32px;
+    }
+
+    .title {
+      color: #052850;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 40px;
+
+      .divider {
+        border-bottom: 2px solid #E0AA32;
+        padding-top: 10px;
+        width: 39px;
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: #07264A;
+  color: white;
+  height: 30px;
+
+  .footer-inner {
+    align-items: center;
+    display: flex;
+    font-size: 10px;
+    font-weight: 500;
+    justify-content: space-between;
+    margin: 0 150px 0 150px;
+    padding: 8px 0;
+  }
+
+  .left {
+    display: flex;
+
+    .item {
+      color: #FFFFFF;
+      margin-right: 20px;
+    }
+  }
+
+  .right {
+    display: flex;
+
+    .item {
+      color: #FFFFFF;
+      margin-right: 20px;
     }
   }
 }

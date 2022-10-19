@@ -1,0 +1,172 @@
+.page-documents {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F8F8;
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .document-inner {
+        height: calc(100vh - 473px);
+        padding: 80px 10px 0 150px;
+        position: relative;
+        top: -385px;
+        text-align: left;
+        width: calc(100vw - 140px);
+
+        .content {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          width: 1090px;
+          margin: auto;
+
+            .dotted-line {
+                border-right: 1px dashed;
+                margin: 0 auto 0 35px;
+
+                &.line1 {
+                    height: 133px;
+                }
+
+                &.line2 {
+                    height: 50px;
+                }
+            }
+
+            .section {
+                border-radius: 10px;
+                height: 70px;
+                margin: 0 13px 13px 0;
+                padding: 10px 20px;
+                width: 310px;
+
+                .name {
+                    font-size: 13px;
+                    font-weight: 500;
+                }
+
+                .sub-text {
+                    font-size: 10px;
+                    font-weight: 500;
+                }
+
+                .text {
+                    font-size: 10px;
+                    font-weight: 400;
+                    opacity: 0.5;
+                }
+
+                &.green {
+                    background-color: #E0FAE4;
+                    margin-top: -5px;
+
+                    .sub-text {
+                        color: #417148;
+                    }
+                }
+
+                &.purple {
+                    background-color: #ECE5FB;
+                    margin-top: 16px;
+
+                    .name {
+                        color: #062951;
+                    }
+
+                    .sub-text {
+                        color: #927BC7;
+                    }
+
+                    .text {
+                        color: #062951;
+                    }
+                }
+
+                &.yellow {
+                    background-color: #F6EDE8;
+                    border: 1px solid #E0AA32;
+                    margin: 20px 150px -8px 0;
+                    padding: 25px 30px;
+                    width: 216px;
+                }
+
+                &.step {
+                    font-size: 15px;
+                    font-weight: 500;
+                    height: 70px;
+                    line-height: 16px;
+                    margin: 0 50px 0 0;
+                    padding: 17px;
+                    text-align: center;
+                    width: 70px;
+
+                    &.purple {
+                        color: #927BC7;
+                    }
+
+                    &.green {
+                        color: #417148;
+                        margin-top: -5px;
+                    }
+
+                    &.yellow {
+                        color: #E0AA32;
+                        border: none;
+                    }
+                }
+            }
+
+            .left {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .right {
+                display: flex;
+                flex-wrap: wrap;
+                width: 970px;
+            }
+        }
+
+        .sub-title {
+            color: #E0AA32;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        
+        .title {
+            color: #062951;
+            font-size: 40px;
+            font-weight: 800;
+            margin-bottom: 45px;
+        
+            .text-yellow {
+              color: #E0AA32;
+            }
+        }
+    }
+
+    .background-shape {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        height: 249px;
+        position: relative;
+        width: 140px;
+
+        .background-shape-inner {
+            background-color: #F8F8F8;
+            border-radius: 0 96px 0 0;
+            height: 249px;
+            width: 140px;
+            z-index: 1;
+        }
+    }
+
+    .page-style {
+        background-color: white;
+        border-radius: 0 0 0 60px;
+        height: 372px;
+        z-index: 1;
+    }
+}
