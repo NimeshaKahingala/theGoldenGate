@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51">
+  <g id="_6" data-name="6" transform="translate(-0.312 -0.153)">
+    <g id="Group_9712" data-name="Group 9712">
+      <rect id="Rectangle_1864" data-name="Rectangle 1864" width="51" height="51" rx="25.5" transform="translate(0.312 0.153)" fill="#e0aa32"/>
+      <g id="Rectangle_1865" data-name="Rectangle 1865" transform="translate(0.312 0.153)" fill="none" stroke="#fff" stroke-width="2">
+        <rect width="51" height="51" rx="25.5" stroke="none"/>
+        <rect x="1" y="1" width="49" height="49" rx="24.5" fill="none"/>
+      </g>
+    </g>
+    <text id="_" data-name="+" transform="translate(32.313 32.153)" fill="#fff" font-size="19" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="-13" y="0">+</tspan></text>
+  </g>
+</svg>

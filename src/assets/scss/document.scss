@@ -1,6 +1,7 @@
 .page-documents {
     font-family: 'Poppins', sans-serif;
     background-color: #F8F8F8;
+    height: 100vh;
 
     .content {
         display: flex;
@@ -192,7 +193,7 @@
     .page-style {
         background-color: white;
         border-radius: 0 0 0 60px;
-        height: 372px;
+        height: 471px;
         z-index: 1;
     }
 }

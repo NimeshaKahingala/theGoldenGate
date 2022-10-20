@@ -6,14 +6,17 @@ import {
 } from "react-router-dom";
 
 
-import logo from './assets/images/logo.svg';
+// import logo from './assets/images/logo.svg';
 import logoBlue from './assets/images/logoBlue.svg';
 import girlImg from './assets/images/imgGirl.png';
+import dotImg from './assets/images/dotGroup.svg';
 import locationYellow from './assets/images/locationYellow.svg';
 import emailYellow from './assets/images/EmailYellow.svg';
 import phoneYellow from './assets/images/PhoneYellow.svg';
 import whatsappYellow from './assets/images/WhatsappYellow.svg';
 import map from './assets/images/map_small.svg';
+
+import whatsappLogo from './assets/images/whtsapplogo.jpg';
 
 import uk from './assets/images/uk.svg';
 import aus from './assets/images/aus.svg';
@@ -28,29 +31,24 @@ import Medicine from './assets/images/courses/med@2x.png';
 import Agriculture from './assets/images/courses/agri.png';
 import Arts from './assets/images/courses/arts.png';
 
+import student1 from './assets/images/student images/student1.png';
+import student2 from './assets/images/student images/student2.png';
+import student3 from './assets/images/student images/student3.png';
+import student4 from './assets/images/student images/student4.png';
+import student5 from './assets/images/student images/student5.svg';
+import student6 from './assets/images/student images/student6.svg';
+
 
 import CardiffUni from './assets/images/university-logos/CardiffUni.PNG';
 import CoventryUniLondon from './assets/images/university-logos/CoventryUniLondon.png';
 import DurhamUni from './assets/images/university-logos/DurhamUni.jpg';
 import HollandInternationalStudyCentre from './assets/images/university-logos/HollandInternationalStudyCentre.PNG';
 import KingstonUniLondon from './assets/images/university-logos/KingstonUniLondon.png';
-import LancasterUni from './assets/images/university-logos/LancasterUni.jpg';
-import LeedsBeckettUni from './assets/images/university-logos/LeedsBeckettUni.png';
-import LiverpoolJohnMooresUni from './assets/images/university-logos/LiverpoolJohnMooresUni.gif';
-import RoyalHollowayUniversityofLondon from './assets/images/university-logos/RoyalHollowayUniversityofLondon.jpg';
-import TeessideUni from './assets/images/university-logos/TeessideUni.jpg';
-import TheUniversityofSheffield from './assets/images/university-logos/TheUniversityofSheffield.jpg';
-import UniversityCollegeDublin from './assets/images/university-logos/UniversityCollegeDublin.png';
-import UniversityofAberdeen from './assets/images/university-logos/UniversityofAberdeen.png';
-import UniversityofHuddersfield from './assets/images/university-logos/UniversityofHuddersfield.png';
-import UniversityofHuddersfieldLondon from './assets/images/university-logos/UniversityofHuddersfieldLondon.png';
-import UniversityofLeeds from './assets/images/university-logos/UniversityofLeeds.jpg';
-import UniversityofStrathclyde from './assets/images/university-logos/UniversityofStrathclyde.jpg';
-import UniversityofSurrey from './assets/images/university-logos/UniversityofSurrey.jpg';
-import UniversityofSussex from './assets/images/university-logos/UniversityofSussex.png';
+
 
 import MainCarousel from './MainCarousel';
 import StudentStories from './StudentStories';
+import UniversityCarousel from './University';
 import Navbar from './components/Navbar';
 import Footer from './components/footer';
 
@@ -65,12 +63,17 @@ function Home() {
             <div className="sub-title">YOUR FAVOURITE OVERSEAS EDUCATION</div>
             <div className="title">WELCOME TO <br/>THE GOLDEN GATE</div>
             <div className="how-it-works">HOW IT WORKS?
-              <div className="list"><span className="number">01</span>Download the documents from <span className="text-bold">“Documents Library”</span></div>
-              <div className="list"><span className="number">02</span>Fill the downloaded documents</div>
-              <div className="list"><span className="number">03</span>Upload by clicking <span className="text-bold">“Apply Now”</span></div>
+              <div className="list"><span className="number green">01</span>Download the documents from <span className="text-bold">“Documents Library”</span></div>
+              <div className="list"><span className="number purple">02</span>Fill the downloaded documents</div>
+              <div className="list"><span className="number yellow">03</span>Upload by clicking <span className="text-bold">“Apply Now”</span></div>
             </div>
             <div className="students">
-              <img></img>
+              <img className='student-img stu1' src={student1}></img>
+              <img className='student-img stu2' src={student2}></img>
+              <img className='student-img stu3' src={student3}></img>
+              <img className='student-img stu4' src={student4}></img>
+              <img className='student-img stu5' src={student5}></img>
+              <img className='student-img stu6' src={student6}></img>
               <span className="link">See what our successful student says</span>
             </div>
           </div>
@@ -83,18 +86,19 @@ function Home() {
               <img className="flag" src={nepal}></img>
             </div>
             <div className="banner-image">   
-              <div className="yellow-background"><img className="girl-image" src={girlImg}></img></div>
+              <div className="yellow-background">
+              <div className='dot-image'><img src={dotImg}></img></div>
+              <img className="girl-image" src={girlImg}></img>
+            </div>
+              
             </div>
           </div>
         </div>
         <div className="university-list">
-          <img className="university-img" src={CardiffUni}></img>
-          <img className="university-img" src={CoventryUniLondon}></img>
-          <img className="university-img" src={DurhamUni}></img>
-          <img className="university-img" src={HollandInternationalStudyCentre}></img>
-          <img className="university-img" src={KingstonUniLondon}></img>          
+          <UniversityCarousel/>         
         </div>
       </div>
+      <div className='whtsapp-logo-wrap'><img className='whatsapp-logo' src={whatsappLogo}></img></div>
       <div className="section-video">
         <div className="video">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/zEkAeQV1PEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

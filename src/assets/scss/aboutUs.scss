@@ -1,6 +1,8 @@
 .page-about-us {
   background-color: #F9F6EF;
   font-family: 'Poppins', sans-serif;
+ // position: relative;
+  top: 100px;
   z-index: -3;
 
   .about-us-inner {
@@ -8,7 +10,7 @@
     border-radius: 0 0 0 60px;
     display: flex;
     justify-content: space-between;
-    padding: 120px 150px 196px 150px;
+    padding: 210px 150px 196px 150px;
     position: relative;
     width: 100%;
     z-index: 2;
