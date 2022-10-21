@@ -103,7 +103,7 @@ function Home() {
           <UniversityCarousel />
         </div>
       </div>
-      <div className='whtsapp-logo-wrap'><img className='whatsapp-logo' src={whatsappLogo}></img></div>
+      {/* <div className='whtsapp-logo-wrap'><img className='whatsapp-logo' src={whatsappLogo}></img></div> */}
       <div className="section-video">
         <div className="video">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/zEkAeQV1PEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
