@@ -169,6 +169,10 @@
         display: flex;
         margin-top: 40px;
 
+        .students-inner {
+          width: 320px;
+        }
+
         .student-img {
           height: 51px;
           position: relative;
@@ -811,6 +815,7 @@
       display: flex;
       flex-direction: column;
       padding: 25px;
+      width: 100%;
 
       .left {
         .students {
@@ -897,13 +902,35 @@
 
   .section-rates {
     flex-wrap: wrap;
-    padding: 25px;
+    padding: 25px 25px 0 25px;
     width: 325px;
+
+    .item {
+      border-bottom: 1px solid white;
+      padding-bottom: 16px;
+    }
+    .line {
+      display: none;
+    }
   }
 
   .section-courses {
     .courses {
+      padding: 0 25px;
       width: 100%;
+
+      .img-wrap {
+        padding: 5px 5px 10px 5px;
+        .course-name {
+          font-size: 11px;
+          font-weight: 800;
+          padding: 6px 0 0 0;
+        }
+        .image {
+          height: 109px;
+          width: 148px;
+        }
+      }
     }
   }
 

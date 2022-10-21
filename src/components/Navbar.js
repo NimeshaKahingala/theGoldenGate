@@ -64,9 +64,9 @@ function Navbar() {
                             <div className='list-item'><img src={EmailBlue} className='icon'></img>INFO@THEGOLDENGATE.UK</div>
                             <div className='list-item'><img src={PhoneBlue} className='icon'></img>(0044) 1428 483412</div>
                             <div className='list-item'>
-                                <div className='social-media'><img src={fbYellow}></img></div>
-                                <div className='social-media'><img src={InstaYellow}></img></div>
-                                <div className='social-media'><img src={LinYellow}></img></div>
+                                <a className='social-media' href='' target="_blank"><img src={fbYellow}></img></a>
+                                <a className='social-media' href='https://www.instagram.com/thegoldengate_int/' target="_blank"><img src={InstaYellow}></img></a>
+                                <a className='social-media' href='https://www.linkedin.com/in/thegoldengate-int/' target="_blank"><img src={LinYellow}></img></a>
                             </div>
                             <div className='btn'><Link to="/Documents" className='btn-documents'>DOCUMENT LIBRARY</Link></div>
                             <div className='btn'><Link to="/Documents" className='btn-apply'>APPLY NOW</Link></div>

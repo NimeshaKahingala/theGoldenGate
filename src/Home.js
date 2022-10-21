@@ -67,7 +67,7 @@ function Home() {
               <div className="list"><span className="number yellow">03</span>Upload by clicking <span className="text-bold">“Apply Now”</span></div>
             </div>
             <div className="students">
-              <div>
+              <div className='students-inner'>
                 <img className='student-img stu1' src={student1}></img>
                 <img className='student-img stu2' src={student2}></img>
                 <img className='student-img stu3' src={student3}></img>
