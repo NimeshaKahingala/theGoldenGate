@@ -27,11 +27,11 @@ function ContactUs() {
                             <div className="title">CONTACT US <div className="divider"></div></div>
                             <div className="details">
                                 <div className='icon'><img src={phoneYellow}></img></div>
-                                <div className='value'>(0044) 1428 483412</div>
+                                <a className='value' href='tel:(0044) 1428 483412'>(0044) 1428 483412</a>
                             </div>
                             <div className="details">
                                 <div className='icon'><img src={emailYellow}></img></div>
-                                <div className='value'>INFO@THEGOLDENGATE.UK</div>
+                                <a className='value' href='mailto:INFO@THEGOLDENGATE.UK'>INFO@THEGOLDENGATE.UK</a>
                             </div>
                             <div className="details">
                                 <div className='icon'><img src={whatsappYellow}></img></div>

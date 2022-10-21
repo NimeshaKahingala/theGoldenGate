@@ -236,9 +236,9 @@ function TermsAndConditions() {
                         </div>
 
                         <div className='text-block'>
-                            TheGoldenGate Phone: phone number <br />
+                            TheGoldenGate Phone: (0044) 1428 483412 <br />
 
-                            E-mail: e-mail ID
+                            E-mail: INFO@THEGOLDENGATE.UK
                         </div>
 
                     </div>

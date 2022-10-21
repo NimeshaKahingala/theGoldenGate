@@ -1,9 +1,5 @@
 import './Home.scss';
-import { Carousel } from 'antd';
 import React from 'react';
-import {
-  Link,
-} from "react-router-dom";
 import { MessengerChat } from "react-messenger-chat-plugin";
 
 
@@ -79,7 +75,7 @@ function Home() {
                 <img className='student-img stu5' src={student5}></img>
                 <img className='student-img stu6' src={student6}></img>
               </div>
-              <span className="link">See what our successful student says</span>
+              <a className="link" href='#students'>See what our successful student says</a>
             </div>
           </div>
           <div className="right">
@@ -187,7 +183,7 @@ function Home() {
         </div>
         <div className="btn-find-more">FIND MORE</div>
       </div>
-      <div className="section-student-stories">
+      <div className="section-student-stories" id='students'>
         <div className="sub-title">WHAT OUR STUDENTS SAY</div>
         <div className="title">STUDENT <span className='text-yellow'>STORIES</span></div>
         <div className='student-stories-wrap'>
