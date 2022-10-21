@@ -132,3 +132,48 @@
     }
   }
 }
+
+@media only screen and (min-width: 300px) and (max-width: 760px) {
+  .page-about-us {
+    .about-us-inner {
+      flex-direction: column;
+      padding: 130px 25px 25px 25px;
+
+      .img-map {
+        height: 159px;
+        width: 324px;
+      }
+
+      .section {
+        .description {
+          width: auto;
+        }
+
+        .second-block {
+          width: auto;
+        }
+      }
+    }
+
+    .content {
+      .background-shape {
+        display: none;
+      }
+
+      .our-team {
+        padding: 100px 25px 25px 25px;
+        width: 100%;
+
+        .content {
+          width: auto;
+
+          .team-member {
+            width: 150px;
+          }
+        }
+      }
+
+
+    }
+  }
+}

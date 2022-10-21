@@ -5,8 +5,7 @@
     top: 100px;
     z-index: -2;
 
-    .section-contact-us {
-        
+    .section-contact-us {   
         display: flex;
         justify-content: space-between;
         position: relative;
@@ -115,4 +114,23 @@
           color: #E0AA32;
         }
     }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 760px) {
+  .page-contact-us {
+    .section-contact-us {
+      .background-shape {
+        display: none;
+      }
+      
+      .contact-us-inner {
+        flex-direction: column;
+        padding: 100px 25px;
+        width: 100%;
+      }
+    }
+    .top {
+      padding: 25px;
+    }
+  }
 }

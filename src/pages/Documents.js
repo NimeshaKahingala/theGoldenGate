@@ -71,33 +71,33 @@ function Documents() {
                                 <div className='section step purple mobile'>
                                     STEP 02
                                 </div>
-                                <div className='section purple'>
-                                    <a className='download-icon' href={EngagementLetter} download><img src={downloadIcon}></img></a>
+                                <a className='section purple' href={EngagementLetter} download>
+                                    <a className='download-icon'><img src={downloadIcon}></img></a>
                                     <div className='right'>
                                     <div className='sub-text'>DOWNLOAD</div>
                                     <div className='name'>Engagement Letter</div>
                                     <div className='text'>You can sign and start apply</div>
                                     </div>
-                                </div>
-                                <div className='section purple'>
-                                 <a className='download-icon' href={VisaApplicationSubmissionForm} download><img src={downloadIcon}></img></a>
+                                </a>
+                                <a className='section purple' href={VisaApplicationSubmissionForm} download>
+                                 <a className='download-icon'><img src={downloadIcon}></img></a>
                                  <div className='right'>
                                     <div className='sub-text'>DOWNLOAD</div>
                                     <div className='name'>Visa Application Submission Form</div>
                                     <div className='text'>Student Visa of your or your spouse</div>
                                     </div>
-                                </div>
+                                </a>
 
 
                                 <div className='section step yellow mobile'>
                                     STEP 03
                                 </div>
-                                <div className='section yellow'>
-                                    <a className='name' href="https://docs.google.com/forms/d/e/1FAIpQLSdTHyZQIgQhtGN_SC3xDgFJQoJI6SHq9fYt696U2JJbDfzqZg/viewform" target="_blank" rel="noreferrer noopener">
+                                <a className='section yellow' href="https://docs.google.com/forms/d/e/1FAIpQLSdTHyZQIgQhtGN_SC3xDgFJQoJI6SHq9fYt696U2JJbDfzqZg/viewform" target="_blank" rel="noreferrer noopener">
+                                    <a className='name'>
                                         APPLY NOW
                                     </a>
                                     <img src={arrowRightYellow} className="arrow-icon"></img>
-                                </div>
+                                </a>
 
                             </div>
                         </div>

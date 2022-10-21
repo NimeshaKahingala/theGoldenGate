@@ -105,6 +105,10 @@
                     .text {
                         color: #062951;
                     }
+
+                    &:hover {
+                        box-shadow: 0 2px 20px rgb(0 0 0 / 16%);
+                    }
                 }
 
                 &.yellow {
@@ -116,6 +120,10 @@
 
                     .arrow-icon {
                         margin-left: 40px;
+                    }
+
+                    &:hover {
+                        box-shadow: 0 2px 20px rgb(0 0 0 / 16%);
                     }
                 }
 
@@ -131,6 +139,10 @@
 
                     &.purple {
                         color: #927BC7;
+
+                        &:hover {
+                            box-shadow: none;
+                        }
                     }
 
                     &.green {
@@ -141,6 +153,10 @@
                     &.yellow {
                         color: #E0AA32;
                         border: none;
+
+                        &:hover {
+                            box-shadow: none;
+                        }
                     }
                 }
             }

@@ -13,8 +13,11 @@
     font-size: 10px;
     font-weight: 500;
     justify-content: space-between;
-    margin: 0 150px 0 150px;
+    // margin: 0 150px 0 150px;
+    margin: auto;
+    max-width: 1500px;
     padding: 8px 0;
+    width: 82%;
 
     .icon {
       margin: 0 4px 0 15px;
@@ -59,8 +62,11 @@
     font-size: 10px;
     font-weight: 500;
     justify-content: space-between;
+    margin: auto;
+    max-width: 1500px;
     padding: 15px 0;
-    margin: 0 150px 0 150px;
+    width: 82%;
+    //margin: 0 150px 0 150px;
   }
 
   .right {
@@ -94,7 +100,10 @@
   .top {
     display: flex;
     justify-content: space-between;
-    padding: 85px 150px 22px 150px;
+    padding: 85px 0px 22px 0px;
+    margin: auto;
+    max-width: 1500px;
+    width: 82%;
 
     .left {
       .how-it-works {
@@ -180,6 +189,7 @@
 
         .link {
           color: #062951;
+          cursor: pointer;
           font-size: 11px;
           font-weight: 500;
           position: relative;
@@ -259,6 +269,9 @@
 
   .university-list {
     padding: 40px 70px;
+    margin: auto;
+    max-width: 1500px;
+    width: 82%;
 
     .slick-track {
       display: flex;
@@ -275,8 +288,8 @@
     }
 
     .university-img {
-      height: 60px;
-      width: 100px;
+      max-height: 60px;
+      max-width: 100px;
     }
   }
 }
@@ -582,7 +595,10 @@
   display: flex;
   justify-content: space-between;
   margin: auto;
-  padding: 90px 150px 50px 150px;
+  padding: 90px 0px 50px 0px;
+  margin: auto;
+  max-width: 1500px;
+  width: 82%;
 
   .section {
     margin-bottom: 30px;
@@ -647,8 +663,10 @@
     font-size: 10px;
     font-weight: 500;
     justify-content: space-between;
-    margin: 0 150px 0 150px;
+    margin: auto;
+    max-width: 1500px;
     padding: 8px 0;
+    width: 82%;
   }
 
   .left {
@@ -671,6 +689,74 @@
 }
 
 
+.menu-modal {
+  max-width: 100vw !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  top: 0 !important;
+
+  .ant-modal-header {
+    background-color: #062951;
+    color: white;
+  }
+
+  .ant-modal-content {
+    height: 100vh;
+
+    .ant-modal-body {
+      padding-top: 60px;
+      text-align: center;
+
+      .btn {
+        height: 50px;
+        margin-bottom: 20px;
+      }
+
+      .btn-documents {
+        background-color: #FAF2DF;
+        border-radius: 8px;
+        color: #062951;
+        font-size: 13px;
+        font-weight: 600;
+        height: 50px;
+        margin: 0 auto 20px auto;
+        padding: 15px 60px;
+        width: 250px;
+      }
+
+      .btn-apply {
+        background-color: #E0AA32;
+        border-radius: 8px;
+        color: #062951;
+        font-size: 13px;
+        font-weight: 600;
+        height: 50px;
+        margin: auto;
+        padding: 15px 87px;
+        width: 250px;
+      }
+
+      .list-item {
+        color: #062951;
+        cursor: pointer;
+        display: flex;
+        font-size: 13px;
+        font-weight: 500;
+        justify-content: center;
+        margin-bottom: 40px;
+
+        .icon {
+          margin-right: 10px;
+        }
+
+        .social-media {
+          padding: 0 7px;
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (min-width: 300px) and (max-width: 760px) {
   .header-top {
     display: none;
@@ -681,6 +767,14 @@
 
     .header-inner {
       margin: 0 25px;
+    }
+
+    .right {
+      cursor: pointer;
+
+      &.desktop {
+        display: none;
+      }
     }
   }
 
@@ -696,6 +790,7 @@
           flex-direction: column;
 
           .link {
+            cursor: pointer;
             left: 0;
             width: 100%;
           }
@@ -798,7 +893,7 @@
       .description {
         width: 100%;
       }
-      
+
       .img-map {
         height: 159px;
         width: 324px;
@@ -812,6 +907,13 @@
 }
 
 @media only screen and (min-width: 1024px) {
+  .header {
+    .right {
+      &.mobile {
+        display: none ;
+      }
+    }
+  }
   .section-student-stories {
     .slick-slider {
       width: 820px !important;

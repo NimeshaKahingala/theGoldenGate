@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="31" viewBox="0 0 31 31">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1891" data-name="Rectangle 1891" width="31" height="31" transform="translate(0.108)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2" transform="translate(0.067)">
+    <g id="invisible_box" data-name="invisible box" transform="translate(-0.175)">
+      <g id="Mask_Group_38" data-name="Mask Group 38" clip-path="url(#clip-path)">
+        <g id="Layer_2-2" data-name="Layer 2" transform="translate(0.108)">
+          <g id="invisible_box-2" data-name="invisible box">
+            <rect id="Rectangle_1906" data-name="Rectangle 1906" width="31" height="31" fill="none"/>
+          </g>
+          <g id="icons_Q2" data-name="icons Q2">
+            <path id="Path_11342" data-name="Path 11342" d="M17.308,15.5l6.846-6.781a1.356,1.356,0,0,0,.129-1.744,1.227,1.227,0,0,0-1.938-.129L15.5,13.692,8.654,6.846a1.227,1.227,0,0,0-1.937.129,1.356,1.356,0,0,0,.129,1.744L13.692,15.5,6.846,22.281a1.356,1.356,0,0,0-.129,1.744,1.227,1.227,0,0,0,1.938.129L15.5,17.308l6.846,6.846a1.227,1.227,0,0,0,1.938-.129,1.356,1.356,0,0,0-.129-1.744Z" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

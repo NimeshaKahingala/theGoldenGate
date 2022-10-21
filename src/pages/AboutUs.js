@@ -25,14 +25,19 @@ function AboutUs() {
                     <div className="section">
                         <div className="sub-title">WHO WE ARE</div>
                         <div className="title">ABOUT <span className="text-yellow">US</span></div>
-                        <div className="description">Every year, 1,000,000+ students worldwide leave their homes behind to leap into the unknown.
-                            Often making one of the most important and expensive decisions of their lives.
+                        <div className="description">TheGoldenGate Int. is one of the leading education consultants currently representing reputable Universities and Colleges in the UK.
+                         We have a strong relationship with most popular academic institutions in the United Kingdom and we provide University Admission for the International Students
+                          from overseas countries. 
                         </div>
-                        <div className='second-block'>We’re using intelligent technology to make sure they can make that decision with confidence, through a trusted marketplace.
+                        <div className='second-block'>We provide very high professional career counselling services to the students who seek admissions to the Universities and Colleges 
+                          to study undergraduate, Postgraduate and other Professional courses accepted by UK authorities. As we posses an excellent knowledge about the various courses 
+                          offered by the Universities and the Colleges in UK. We can provide valuable advises to the prospective students in selecting proper courses according to their
+                           present qualifications and also in selecting a good educational institute. 
                         </div>
-                        <div className="bold-text sub-title">OUR MISSION</div>
+                        {/* <div className="bold-text sub-title">OUR MISSION</div> */}
                         <div className="description">
-                            Help students make confident study decisions through <br />a trusted marketplace that connects the world’s <br />institutions, recruiters & service providers.
+                        Our further services include assisting the students in following Visa procedures, 
+                           coordinating with Universities/Colleges regarding admission procedures and also in obtaining the scholarships.
                         </div>
                     </div>
                     <div className="section">

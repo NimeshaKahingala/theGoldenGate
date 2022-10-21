@@ -59,3 +59,20 @@
     }
 
 }
+
+@media only screen and (min-width: 300px) and (max-width: 760px) {
+    .page-terms-conditions {
+        .content {
+            .background-shape {
+                display: none;
+            }
+            
+            .content-inner {
+                padding: 25px;
+            }
+        }
+        .top {
+            padding: 30px 25px 25px 25px;
+        }
+    }
+}
