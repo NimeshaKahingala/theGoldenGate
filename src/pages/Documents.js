@@ -18,7 +18,7 @@ function Documents() {
                         <div className="title">DOCUMENT <span className="text-yellow">LIBRARY</span></div>
 
                         <div className='content'>
-                            <div className='left'>
+                            <div className='left desktop'>
                                 <div className='section step green'>
                                     STEP 01
                                 </div>
@@ -33,6 +33,10 @@ function Documents() {
                             </div>
 
                             <div className='right'>
+                            <div className='dotted-line line2 mobile'></div>
+                                <div className='section step green mobile'>
+                                    STEP 01
+                                </div>
                                 <div className='section green'>
                                     <div className='sub-text'>BEFORE YOU APPLY</div>
                                     <div className='name'>Latest CV</div>
@@ -64,7 +68,9 @@ function Documents() {
                                     <div className='text'>Prepare your personal statement (500 to 2000 words)</div>
                                 </div>
 
-
+                                <div className='section step purple mobile'>
+                                    STEP 02
+                                </div>
                                 <div className='section purple'>
                                     <a className='download-icon' href={EngagementLetter} download><img src={downloadIcon}></img></a>
                                     <div className='right'>
@@ -83,6 +89,9 @@ function Documents() {
                                 </div>
 
 
+                                <div className='section step yellow mobile'>
+                                    STEP 03
+                                </div>
                                 <div className='section yellow'>
                                     <a className='name' href="https://docs.google.com/forms/d/e/1FAIpQLSdTHyZQIgQhtGN_SC3xDgFJQoJI6SHq9fYt696U2JJbDfzqZg/viewform" target="_blank" rel="noreferrer noopener">
                                         APPLY NOW

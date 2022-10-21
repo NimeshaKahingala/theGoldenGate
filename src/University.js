@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel } from 'antd';
+import {isMobile} from 'react-device-detect';
 
 import CardiffUni from './assets/images/university-logos/CardiffUni.PNG';
 import CoventryUniLondon from './assets/images/university-logos/CoventryUniLondon.png';
@@ -23,7 +24,7 @@ import UniversityofSussex from './assets/images/university-logos/UniversityofSus
 
 
 const UniversityCarousel = () => (
-  <Carousel autoplay slidesToShow={5}>
+  <Carousel autoplay slidesToShow={isMobile? 2 : 5}>
     <div>
       <img className="university-img" src={CardiffUni} ></img>
     </div>
