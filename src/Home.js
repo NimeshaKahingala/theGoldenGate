@@ -1,6 +1,6 @@
 import './Home.scss';
 import React from 'react';
-import { MessengerChat } from "react-messenger-chat-plugin";
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 
 
@@ -221,7 +221,7 @@ function Home() {
           <div className="img-map" style={{ backgroundImage: `url(${map})` }}></div>
         </div>
       </div>
-      <MessengerChat pageId='123456789101112' />
+      <MessengerCustomerChat pageId='100064155186694' appId='953636695611757' debug={true} />
       <Footer />
     </div>
   );
