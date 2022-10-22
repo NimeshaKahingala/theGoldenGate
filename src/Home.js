@@ -12,9 +12,8 @@ import locationYellow from './assets/images/locationYellow.svg';
 import emailYellow from './assets/images/EmailYellow.svg';
 import phoneYellow from './assets/images/PhoneYellow.svg';
 import whatsappYellow from './assets/images/WhatsappYellow.svg';
+import whatsappIcon from './assets/images/whatsappLogo.svg';
 import map from './assets/images/map_small.svg';
-
-import whatsappLogo from './assets/images/whtsapplogo.jpg';
 
 import uk from './assets/images/uk.svg';
 import aus from './assets/images/aus.svg';
@@ -217,11 +216,15 @@ function Home() {
           </div>
         </div>
         <div className="section">
-          <div className="title">OUR OFFICES<div className="divider"></div></div>
+          <div className="title">OUR OFFICES Hello <div className="divider"></div></div>
           <div className="img-map" style={{ backgroundImage: `url(${map})` }}></div>
         </div>
       </div>
-      <MessengerCustomerChat pageId="100064155186694" appId="953636695611757" debug={true} />
+      <div className='whatsapp'>
+        <a href="https://wa.me/+94715124609" target="_blank" >        
+        <img src={whatsappIcon} className="icon"></img></a>
+      </div>
+      {/* <MessengerCustomerChat pageId="" appId="" debug={true} /> */}
       <Footer />
     </div>
   );
