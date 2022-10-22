@@ -221,7 +221,7 @@ function Home() {
           <div className="img-map" style={{ backgroundImage: `url(${map})` }}></div>
         </div>
       </div>
-      <MessengerCustomerChat pageId='100064155186694' appId='953636695611757' debug={true} />
+      <MessengerCustomerChat pageId="100064155186694" appId="953636695611757" debug={true} />
       <Footer />
     </div>
   );
