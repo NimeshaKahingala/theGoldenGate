@@ -95,7 +95,9 @@ function Home() {
           </div>
         </div>
         <div className="university-list">
-          <UniversityCarousel />
+          <div className='uni-list-inner'>
+            <UniversityCarousel />
+          </div>
         </div>
       </div>
       {/* <div className='whtsapp-logo-wrap'><img className='whatsapp-logo' src={whatsappLogo}></img></div> */}

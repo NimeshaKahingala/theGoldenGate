@@ -24,6 +24,7 @@
         }
 
         .content-inner {
+            margin: auto;
             padding: 0 10px 100px 150px;
 
             .section-title {
@@ -31,12 +32,16 @@
                 font-size: 13;
                 font-weight: 700;
                 margin: 50px 0 10px 0;
+                max-width: 1066px;
+                margin: auto;
             }
 
             .text-block {
                 color: #062951;
                 font-size: 13px;
                 margin: 10px 0;
+                max-width: 1066px;
+                margin: auto;
             }
         }
     }
@@ -51,6 +56,8 @@
             font-size: 40px;
             font-weight: 800;
             margin-bottom: 20px;
+            max-width: 1066px;
+            margin: auto;
 
             .text-yellow {
                 color: #E0AA32;

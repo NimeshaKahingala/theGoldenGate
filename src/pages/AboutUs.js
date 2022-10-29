@@ -22,26 +22,28 @@ function AboutUs() {
             <Navbar />
             <div className="page-about-us">
                 <div className="about-us-inner">
-                    <div className="section">
-                        <div className="sub-title">WHO WE ARE</div>
-                        <div className="title">ABOUT <span className="text-yellow">US</span></div>
-                        <div className="description">TheGoldenGate Int. is one of the leading education consultants currently representing reputable Universities and Colleges in the UK.
-                         We have a strong relationship with most popular academic institutions in the United Kingdom and we provide University Admission for the International Students
-                          from overseas countries. 
+                    <div className='text-content'>
+                        <div className="section">
+                            <div className="sub-title">WHO WE ARE</div>
+                            <div className="title">ABOUT <span className="text-yellow">US</span></div>
+                            <div className="description">TheGoldenGate Int. is one of the leading education consultants currently representing reputable Universities and Colleges in the UK.
+                                We have a strong relationship with most popular academic institutions in the United Kingdom and we provide University Admission for the International Students
+                                from overseas countries.
+                            </div>
+                            <div className='second-block'>We provide very high professional career counselling services to the students who seek admissions to the Universities and Colleges
+                                to study undergraduate, Postgraduate and other Professional courses accepted by UK authorities. As we posses an excellent knowledge about the various courses
+                                offered by the Universities and the Colleges in UK. We can provide valuable advises to the prospective students in selecting proper courses according to their
+                                present qualifications and also in selecting a good educational institute.
+                            </div>
+                            {/* <div className="bold-text sub-title">OUR MISSION</div> */}
+                            <div className="description">
+                                Our further services include assisting the students in following Visa procedures,
+                                coordinating with Universities/Colleges regarding admission procedures and also in obtaining the scholarships.
+                            </div>
                         </div>
-                        <div className='second-block'>We provide very high professional career counselling services to the students who seek admissions to the Universities and Colleges 
-                          to study undergraduate, Postgraduate and other Professional courses accepted by UK authorities. As we posses an excellent knowledge about the various courses 
-                          offered by the Universities and the Colleges in UK. We can provide valuable advises to the prospective students in selecting proper courses according to their
-                           present qualifications and also in selecting a good educational institute. 
+                        <div className="section">
+                            <div className="img-map" style={{ backgroundImage: `url(${map})` }}></div>
                         </div>
-                        {/* <div className="bold-text sub-title">OUR MISSION</div> */}
-                        <div className="description">
-                        Our further services include assisting the students in following Visa procedures, 
-                           coordinating with Universities/Colleges regarding admission procedures and also in obtaining the scholarships.
-                        </div>
-                    </div>
-                    <div className="section">
-                        <div className="img-map" style={{ backgroundImage: `url(${map})` }}></div>
                     </div>
                 </div>
                 <div>

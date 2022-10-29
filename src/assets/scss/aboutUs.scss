@@ -8,12 +8,17 @@
   .about-us-inner {
     background-color: white;
     border-radius: 0 0 0 60px;
-    display: flex;
-    justify-content: space-between;
-    padding: 210px 150px 196px 150px;
+    padding: 210px 0 196px 0;
     position: relative;
     width: 100%;
     z-index: 2;
+
+    .text-content {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1066px;
+      margin: auto;
+    }
   }
 
   .content {

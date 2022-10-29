@@ -15,8 +15,11 @@
         .contact-us-inner {
           display: flex;
           justify-content: space-between;
-          padding: 103px 10px 10px 150px;
-          width: calc(100vw - 140px);
+          left: 48px;
+          max-width: 1066px;
+          margin: auto;
+          padding: 103px 0 10px 0;
+          position: relative;
         }
 
         .background-shape {
@@ -91,6 +94,8 @@
         color: #E0AA32;
         font-size: 13px;
         font-weight: 600;
+        max-width: 1066px;
+        margin: auto;
 
         &.bold-text {
             font-weight: 700;
@@ -109,6 +114,8 @@
         font-size: 40px;
         font-weight: 800;
         margin-bottom: 20px;
+        max-width: 1066px;
+        margin: auto;
     
         .text-yellow {
           color: #E0AA32;

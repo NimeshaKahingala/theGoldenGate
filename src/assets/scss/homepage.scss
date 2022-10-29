@@ -15,7 +15,7 @@
     justify-content: space-between;
     // margin: 0 150px 0 150px;
     margin: auto;
-    max-width: 1500px;
+    max-width: 1066px;
     padding: 8px 0;
     width: 82%;
 
@@ -72,7 +72,7 @@
     font-weight: 500;
     justify-content: space-between;
     margin: auto;
-    max-width: 1500px;
+    max-width: 1066px;
     padding: 15px 0;
     width: 82%;
     //margin: 0 150px 0 150px;
@@ -119,7 +119,7 @@
     justify-content: space-between;
     padding: 85px 0px 22px 0px;
     margin: auto;
-    max-width: 1500px;
+    max-width: 1066px;
     width: 82%;
 
     .left {
@@ -289,10 +289,18 @@
   }
 
   .university-list {
-    padding: 40px 70px;
+    background-color: white;
+    border-radius: 0 0 0 60px;
+    padding: 40px 0;
     margin: auto;
-    max-width: 1500px;
-    width: 82%;
+    position: relative;
+    z-index: 1;
+   // max-width: 1207px;
+
+   .uni-list-inner {
+      max-width: 1207px;
+      margin: auto;
+   }
 
     .slick-track {
       display: flex;
@@ -332,7 +340,7 @@
   .icon {
     bottom: 15px;
     position: fixed;
-    right: 20px;
+    right: 14%;
     z-index: 20;
   }
 }
@@ -341,10 +349,8 @@
   background-color: #F9F6EF;
   border-radius: 0 0 0 60px;
   display: flex;
-  padding: 250px 0px 90px 90px;
+  padding: 190px 0px 90px 90px;
   position: relative;
-  top: -60px;
-  z-index: -1;
 
   .background-shape {
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -429,7 +435,7 @@
   .country-banner-wrap {
     margin: auto auto 50px auto;
     text-align: center;
-    width: 1066px;
+    max-width: 1066px;
 
     .country-banner-img {
       background-size: cover;
@@ -473,7 +479,7 @@
   padding: 34px 100px;
   position: relative;
   top: -200px;
-  width: 1066px;
+  max-width: 1066px;
 
   .item {
     margin: auto;
@@ -531,7 +537,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin: auto;
-    width: 1066px;
+    max-width: 1066px;
 
     .img-wrap {
       border-radius: 20px;
@@ -638,7 +644,7 @@
   margin: auto;
   padding: 90px 0px 50px 0px;
   margin: auto;
-  max-width: 1500px;
+  max-width: 1066px;
   width: 82%;
 
   .section {
@@ -705,7 +711,7 @@
     font-weight: 500;
     justify-content: space-between;
     margin: auto;
-    max-width: 1500px;
+    max-width: 1066px;
     padding: 8px 0;
     width: 82%;
   }
