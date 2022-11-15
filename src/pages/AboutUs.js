@@ -62,7 +62,7 @@ function AboutUs() {
                                         <div className='image'><img src={pathum}></img></div>
                                         <div className='name'>Pathum Suranga</div>
                                         <div className='position'>CEO</div>
-                                        <a><img src={emailYellow}></img></a>
+                                        <a href='mailto:pathum@thegoldengate.uk'><img src={emailYellow}></img></a>
                                     </div>
                                     {/* <div className='team-member'>
                                         <div className='image'><img src={dhaba}></img></div>
@@ -73,44 +73,45 @@ function AboutUs() {
                                         <div className='image'><img src={ashika}></img></div>
                                         <div className='name'>Dr. Ashika Dulanjali</div>
                                         <div className='position'>Managing Director</div>
-                                        <a><img src={emailYellow}></img></a>
+                                        <a href='mailto:ashika@thegoldengate.uk'><img src={emailYellow}></img></a>
                                     </div>
                                 </div>
                                 <div className='team-member'>
                                     <div className='image'><img src={prabath}></img></div>
                                     <div className='name'>Prabath Liyanage</div>
                                     <div className='position'>Secretary</div>
-                                    <a><img src={emailYellow}></img></a>
+                                    <a href='mailto:prabath@thegoldengate.uk'><img src={emailYellow}></img></a>
                                 </div>
                                 <div className='team-member'>
                                     <div className='image'><img src={dileepa}></img></div>
                                     <div className='name'>Dileepa Rathnayaka</div>
                                     <div className='position'>Operation Co-ordinator</div>
-                                    <a><img src={emailYellow}></img></a>
+                                    <a href='mailto:dileepa@thegoldengate.uk'><img src={emailYellow}></img></a>
                                 </div>
                                 <div className='team-member'>
                                     <div className='image'><img src={vindya}></img></div>
                                     <div className='name'>Vindhya Fernando</div>
                                     <div className='position'>Senior Student Consultant & Accountant</div>
-                                    <a><img src={emailYellow}></img></a>
+                                    <a href='mailto:vindhya@thegoldengate.uk'><img src={emailYellow}></img></a>
                                 </div>
                                 {/* <div className='team-member'>
                                     <div className='image'><img src={vinoth}></img></div>
                                     <div className='name'>Vinoth K</div>
                                     <div className='position'>Head of IT</div>
+                                     <a href='mailto:vinoth@thegoldengate.uk'><img src={emailYellow}></img></a>
                                 </div> */}
                                 <div className='column'>
                                     <div className='team-member'>
                                         <div className='image'><img src={thushan}></img></div>
                                         <div className='name'>Thushan Dissanayake</div>
                                         <div className='position'>IT Consultant</div>
-                                        <a><img src={emailYellow}></img></a>
+                                        <a href='mailto:thushan@thegoldengate.uk'><img src={emailYellow}></img></a>
                                     </div>
                                     <div className='team-member'>
                                         <div className='image'><img src={pulasthi}></img></div>
                                         <div className='name'>Pulasthi Withana</div>
                                         <div className='position'>IT Consultant</div>
-                                        <a><img src={emailYellow}></img></a>
+                                        <a href='mailto:pulasthi@thegoldengate.uk'><img src={emailYellow}></img></a>
                                     </div>
                                 </div>
                             </div>
