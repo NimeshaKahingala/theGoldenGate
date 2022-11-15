@@ -6,6 +6,7 @@ import dhammika from './assets/images/student images/dhammika.png';
 import pulasthi from './assets/images/student images/pulasthi.png';
 import sadupama from './assets/images/student images/sadupama.png';
 import thushan from './assets/images/student images/thushan.png';
+import dilshan from './assets/images/student images/dilshan.jpeg';
 import student from './assets/images/student images/student.png';
 
 
@@ -15,10 +16,10 @@ const StudentStories = () => (
       <div className="student-img" style={{ backgroundImage: `url(${dhammika})` }} ></div>
       <div className='student-name'>Dhammika</div>
       <div className='university-name'>University of South Wales</div>
-      <div className='description'>If anyone needs to go for higher studies in overseas, then look no further. The only place you have to step in is the Golden gate Consultants. 
-      I went to the UK 🇬🇧 in 2020 for my MSc in University of South Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿 and I got the UK Tier 4 Student visa in 6 days. I got this visa through Golden gate  and they gave me 
-      a tremendous support throughout the entire process. Their staff was very friendly and highly supportive. They will assist you in every single aspect of your visa process no 
-      matter what your circumstances are. Highly recommending this place to everyone who is seeking for a bright future.
+      <div className='description'>I would strongly recommend Golden Gate to anyone seeking student visa faster to enter the UK. I got my student visa to pursue my MSc in 
+      International Business at Ulster University for Autumn intake in 2022 from Golden Gate and my overall experience with them especially their Director Mr Pathum K has 
+      always been compassionate and the entire process helped me understand everything comprehensively that could be challenging to anyone in a transition. 
+      I would encourage anyone to get support from GG for your student visa and learn that you will be listened throughout the process until you enter your dream destination.
       </div>
     </div>
     <div className='story-wrap'>
@@ -49,10 +50,21 @@ const StudentStories = () => (
       <div className="student-img" style={{ backgroundImage: `url(${thushan})` }} ></div>
       <div className='student-name'>Thushan</div>
       <div className='university-name'>Ulster University</div>
-      <div className='description'>I would strongly recommend Golden Gate to anyone seeking student visa faster to enter the UK. I got my student visa to pursue my MSc in 
-      International Business at Ulster University for Autumn intake in 2022 from Golden Gate and my overall experience with them especially their Director Mr Pathum K has 
-      always been compassionate and the entire process helped me understand everything comprehensively that could be challenging to anyone in a transition. 
-      I would encourage anyone to get support from GG for your student visa and learn that you will be listened throughout the process until you enter your dream destination.
+      <div className='description'>If anyone needs to go for higher studies in overseas, then look no further. The only place you have to step in is the Golden gate Consultants. 
+      I went to the UK 🇬🇧 in 2020 for my MSc in University of South Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿 and I got the UK Tier 4 Student visa in 6 days. I got this visa through Golden gate  and they gave me 
+      a tremendous support throughout the entire process. Their staff was very friendly and highly supportive. They will assist you in every single aspect of your visa process no 
+      matter what your circumstances are. Highly recommending this place to everyone who is seeking for a bright future.</div>
+    </div>
+    <div className='story-wrap'>
+      <div className="student-img" style={{ backgroundImage: `url(${dilshan})` }} ></div>
+      <div className='student-name'>Dilshan</div>
+      <div className='university-name'>University of South Wales</div>
+      <div className='description'>I am an undergraduate student. I completed my Diploma level in Sri Lanka and I needed to transfer for a Top Up Degree in UK. Unfortunately 
+      I did not know where to start or whom to ask for help. I browsed through Internet and all I could find was that it’s impossible to get visas due to the current situation 
+      in Sri Lanka. However, when I was about to give up on studying in UK, a relative told me about ‘Golden Gate International’. We talked to them and explained my current 
+      situation. They provided me all the information and guidance regarding the whole process. Not only that, with the help of ‘Golden Gate International’ I applied for the 
+      visa and in less than a week I got my visa. I’m really glad that I found Golden gate International.They were super friendly and so helpful. They kept me updated with 
+      every step in the process. If you are planing to complete your studies in UK I highly recommend Golden Gate International. Thank you
       </div>
     </div>
   </Carousel>

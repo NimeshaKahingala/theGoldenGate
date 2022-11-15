@@ -12,6 +12,8 @@ import vindya from './../assets/images/about us/vind.png';
 import vinoth from './../assets/images/about us/vinoth.png';
 import thushan from './../assets/images/about us/thushan.png';
 import pulasthi from './../assets/images/about us/pul.png';
+import prabath from './../assets/images/about us/prabath.png';
+import emailYellow from './../assets/images/about us/email-yellow.svg';
 
 
 import map from './../assets/images/map_small.svg';
@@ -55,50 +57,61 @@ function AboutUs() {
                                 Meet our team members behind the scene, and who are here to help you.
                             </div>
                             <div className='content'>
-                                <div className='team-member'>
-                                    <div className='image'><img src={pathum}></img></div>
-                                    <div className='name'>Pathum Suranga</div>
-                                    <div className='position'>CEO</div>
+                                <div className='column'>
+                                    <div className='team-member'>
+                                        <div className='image'><img src={pathum}></img></div>
+                                        <div className='name'>Pathum Suranga</div>
+                                        <div className='position'>CEO</div>
+                                        <a><img src={emailYellow}></img></a>
+                                    </div>
+                                    {/* <div className='team-member'>
+                                        <div className='image'><img src={dhaba}></img></div>
+                                        <div className='name'>Prof. Daba Chauwdri</div>
+                                        <div className='position'>Partner</div>
+                                    </div> */}
+                                    <div className='team-member'>
+                                        <div className='image'><img src={ashika}></img></div>
+                                        <div className='name'>Dr. Ashika Dulanjali</div>
+                                        <div className='position'>Managing Director</div>
+                                        <a><img src={emailYellow}></img></a>
+                                    </div>
                                 </div>
                                 <div className='team-member'>
-                                    <div className='image'><img src={dhaba}></img></div>
-                                    <div className='name'>Prof. Daba Chauwdri</div>
-                                    <div className='position'>Partner</div>
-                                </div>
-                                <div className='team-member'>
-                                    <div className='image'><img src={ashika}></img></div>
-                                    <div className='name'>Dr. Ashika Dulanjali</div>
-                                    <div className='position'>Managing Director</div>
-                                </div>
-                                <div className='team-member'>
-                                    <div className='image'><img src={user}></img></div>
+                                    <div className='image'><img src={prabath}></img></div>
                                     <div className='name'>Prabath Liyanage</div>
                                     <div className='position'>Secretary</div>
+                                    <a><img src={emailYellow}></img></a>
                                 </div>
                                 <div className='team-member'>
                                     <div className='image'><img src={dileepa}></img></div>
                                     <div className='name'>Dileepa Rathnayaka</div>
                                     <div className='position'>Operation Co-ordinator</div>
+                                    <a><img src={emailYellow}></img></a>
                                 </div>
                                 <div className='team-member'>
                                     <div className='image'><img src={vindya}></img></div>
                                     <div className='name'>Vindhya Fernando</div>
                                     <div className='position'>Senior Student Consultant & Accountant</div>
+                                    <a><img src={emailYellow}></img></a>
                                 </div>
-                                <div className='team-member'>
+                                {/* <div className='team-member'>
                                     <div className='image'><img src={vinoth}></img></div>
                                     <div className='name'>Vinoth K</div>
                                     <div className='position'>Head of IT</div>
-                                </div>
-                                <div className='team-member'>
-                                    <div className='image'><img src={thushan}></img></div>
-                                    <div className='name'>Thushan Dissanayake</div>
-                                    <div className='position'>IT Consultant</div>
-                                </div>
-                                <div className='team-member'>
-                                    <div className='image'><img src={pulasthi}></img></div>
-                                    <div className='name'>Pulasthi Withana</div>
-                                    <div className='position'>IT Consultant</div>
+                                </div> */}
+                                <div className='column'>
+                                    <div className='team-member'>
+                                        <div className='image'><img src={thushan}></img></div>
+                                        <div className='name'>Thushan Dissanayake</div>
+                                        <div className='position'>IT Consultant</div>
+                                        <a><img src={emailYellow}></img></a>
+                                    </div>
+                                    <div className='team-member'>
+                                        <div className='image'><img src={pulasthi}></img></div>
+                                        <div className='name'>Pulasthi Withana</div>
+                                        <div className='position'>IT Consultant</div>
+                                        <a><img src={emailYellow}></img></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

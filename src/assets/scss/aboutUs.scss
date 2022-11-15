@@ -39,6 +39,12 @@
         z-index: 1;
       }
     }
+
+    .column {
+      display: flex;
+      justify-content: center;
+      width: 685px;
+    }
   
     .our-team {
       background-color: #F9F6EF;
@@ -158,6 +164,14 @@
           width: auto;
         }
       }
+
+      .text-content {
+        flex-direction: column;
+      }
+
+      .title {
+        font-size: 30px;
+      }
     }
 
     .content {
@@ -175,6 +189,10 @@
           .team-member {
             width: 150px;
           }
+        }
+
+        .title {
+          font-size: 30px;
         }
       }
 

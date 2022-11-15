@@ -8,6 +8,8 @@ import MessengerCustomerChat from 'react-messenger-customer-chat';
 import logoBlue from './assets/images/logoBlue.svg';
 import girlImg from './assets/images/imgGirl.png';
 import dotImg from './assets/images/dotGroup.svg';
+import badge from './assets/images/badge.png';
+import arrow from './assets/images/arrow.svg';
 import locationYellow from './assets/images/locationYellow.svg';
 import emailYellow from './assets/images/EmailYellow.svg';
 import phoneYellow from './assets/images/PhoneYellow.svg';
@@ -87,7 +89,8 @@ function Home() {
             </div>
             <div className="banner-image">
               <div className="yellow-background">
-                <div className='dot-image'><img src={dotImg}></img></div>
+                {/* <div className='dot-image'><img src={dotImg}></img></div> */}
+                <div className='dot-image'><img src={badge}></img></div>
                 <img className="girl-image" src={girlImg}></img>
               </div>
 
@@ -108,6 +111,7 @@ function Home() {
         <div className="background-shape"><div className="background-shape-inner"></div></div>
       </div>
       <div className="section-study-abroad">
+        <div className="background-shape"><div className="background-shape-inner"></div></div>
         <div className="country-icons">
           <img className="flag-1" src={uk}></img>
           <img className="flag-2" src={aus}></img>
@@ -122,7 +126,7 @@ function Home() {
         <div className="country-banner-wrap">
           <MainCarousel />
         </div>
-        <div className="btn-find-more">FIND MORE</div>
+        <a href="https://wa.me/+447479735772" target="_blank" className='btn-find-more'>FIND MORE<img src={arrow} className="arrow"></img></a>
       </div>
       <div className="section-rates">
         <div className="item">
@@ -182,7 +186,8 @@ function Home() {
             <div className="course-name">Arts</div>
           </div>
         </div>
-        <div className="btn-find-more">FIND MORE</div>
+        <a href="https://wa.me/+447479735772" target="_blank" className='btn-find-more'>FIND MORE <img src={arrow} className="arrow"></img></a>
+        <div className="background-shape"><div className="background-shape-inner"></div></div>
       </div>
       <div className="section-student-stories" id='students'>
         <div className="sub-title">WHAT OUR STUDENTS SAY</div>
@@ -192,6 +197,8 @@ function Home() {
         </div>
       </div>
       <div className="section-about-us">
+        {/* <div className="background-shape"><div className="background-shape-inner"></div></div> */}
+        <div className='about-us-inner'>
         <div className="section">
           <div className="logo-wrap"><img src={logoBlue}></img></div>
           <div className="description">Embark on an adventure. Immerse yourself in student life and the unique local culture of your preferred study destination,
@@ -218,12 +225,13 @@ function Home() {
           </div>
         </div>
         <div className="section">
-          <div className="title">OUR OFFICES Hello <div className="divider"></div></div>
+          <div className="title">OUR OFFICES<div className="divider"></div></div>
           <div className="img-map" style={{ backgroundImage: `url(${map})` }}></div>
+        </div>
         </div>
       </div>
       <div className='whatsapp'>
-        <a href="https://wa.me/+94715124609" target="_blank" >        
+        <a href="https://wa.me/+447479735772" target="_blank" >        
         <img src={whatsappIcon} className="icon"></img></a>
       </div>
       {/* <MessengerCustomerChat pageId="" appId="" debug={true} /> */}

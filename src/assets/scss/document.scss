@@ -17,11 +17,11 @@
         width: calc(100vw - 140px);
 
         .content {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-between;
-          width: 1090px;
-          margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 1090px;
+            margin: auto;
 
             .dotted-line {
                 border-right: 1px dashed;
@@ -178,15 +178,15 @@
             font-size: 13px;
             font-weight: 600;
         }
-        
+
         .title {
             color: #062951;
             font-size: 40px;
             font-weight: 800;
             margin-bottom: 45px;
-        
+
             .text-yellow {
-              color: #E0AA32;
+                color: #E0AA32;
             }
         }
     }
@@ -225,14 +225,14 @@
                     width: 100%;
 
                     .left {
-                     &.desktop {
-                        display: none;
-                     }
+                        &.desktop {
+                            display: none;
+                        }
                     }
 
                     .right {
                         max-height: 1080px;
-                        
+
                         .dotted-line {
                             border-left: 1px dashed;
                             border-right: none;
@@ -241,15 +241,21 @@
                             width: 100%;
                             z-index: 1;
                         }
+
                         .section {
                             position: relative;
                             top: -820px;
                             z-index: 2;
                         }
+
                         .step {
                             margin-bottom: 10px;
                         }
                     }
+                }
+
+                .title {
+                    font-size: 30px;
                 }
             }
         }
@@ -274,6 +280,7 @@
                         display: none;
                     }
                 }
+
                 .section {
                     &.mobile {
                         display: none;

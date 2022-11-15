@@ -78,8 +78,13 @@
                 padding: 25px;
             }
         }
+
         .top {
             padding: 30px 25px 25px 25px;
+
+            .title {
+                font-size: 30px;
+              }
         }
     }
 }
